@@ -22,20 +22,11 @@ export const metadata: Metadata = {
   description:
     'Pengepul data driver'
 };
-export async function generateStaticParams() {
-  // const posts = await fetch('https://.../posts').then((res) => res.json())
- 
-  return ""
+
+export function generateStaticParams() {
+  return [{ id: '1' }, { id: '2' }, { id: '3' }]
 }
 
-// export default function Page({params}) {
-//   const { slug } = params
-//   return (
-//     <>
-//       <MealDetail/>
-//     </>
-//   );
-// }
 export default function Page({ params }: { params: { id: string } }) {
   const { id } = params
   return (
