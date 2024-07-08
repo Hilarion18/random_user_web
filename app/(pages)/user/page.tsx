@@ -19,7 +19,9 @@ import {
 import { UserList } from '~/shared/data/pages/user.data';
 
 export const metadata: Metadata = {
-  title: SITE.title,
+  title: 'Badan Data Driver Nasional',
+  description:
+    'Pengepul data driver'
 };
 
 export default function Page() {

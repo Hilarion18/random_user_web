@@ -18,10 +18,12 @@ import {
 } from '~/shared/data/pages/meal.detail.data';
 
 export const metadata: Metadata = {
-  title: SITE.title,
+  title: 'Badan Data Driver Nasional',
+  description:
+    'Pengepul data driver'
 };
 
-export default function Page(mealId: String) {
+export default function Page() {
   return (
     <>
       <MealDetail/>

@@ -38,10 +38,6 @@ export const headerData: HeaderProps = {
           href: '/user',
           // href: '/meal',
         },
-        {
-          label: 'Meal',
-          href: '/meal',
-        },
         // {
         //   label: 'Pricing',
         //   href: '/pricing',

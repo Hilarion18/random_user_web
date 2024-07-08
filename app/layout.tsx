@@ -16,12 +16,18 @@ export interface LayoutProps {
   children: React.ReactNode;
 }
 
+// export const metadata: Metadata = {
+//   title: {
+//     template: `%s — ${SITE.name}`,
+//     default: SITE.title,
+//   },
+//   description: SITE.description,
+// };
+
 export const metadata: Metadata = {
-  title: {
-    template: `%s — ${SITE.name}`,
-    default: SITE.title,
-  },
-  description: SITE.description,
+  title: 'Badan Data Driver Nasional',
+  description:
+    'Pengepul data driver'
 };
 
 export default function RootLayout({ children }: LayoutProps) {

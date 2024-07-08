@@ -13,7 +13,7 @@ import Pricing from '~/components/widgets/Pricing';
 import Team from '~/components/widgets/Team';
 import CallToAction2 from '~/components/widgets/CallToAction2';
 import Contact from '~/components/widgets/Contact';
-import { HomePage } from './(pages)/home/page';
+import { HomePage } from '../src/components/widgets/HomePage';
 import {
   callToAction2Home,
   contactHome,
@@ -33,9 +33,9 @@ import { UserList } from '~/shared/data/pages/user.data';
 import Link from 'next/link';
 import { useState } from 'react';
 
-export const metadata: Metadata = {
-  title: SITE.title,
-};
+// export const metadata: Metadata = {
+//   title: SITE.title,
+// };
 
 export default function Page() {
   return (

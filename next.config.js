@@ -3,7 +3,7 @@ const SITE = require('./src/config.js').SITE;
 /** @type {import('next').NextConfig} */
 module.exports = {
   reactStrictMode: true,
-  distDir: 'dist',
+  distDir: 'build',
 
   trailingSlash: SITE.trailingSlash,
   basePath: SITE.basePathname !== '/' ? SITE.basePathname : '',
