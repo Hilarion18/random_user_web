@@ -23,7 +23,7 @@ export const metadata: Metadata = {
     'Pengepul data driver'
 };
 
-export default function Page() {
+export default function generateStaticParams() {
   return (
     <>
       <MealDetail/>
