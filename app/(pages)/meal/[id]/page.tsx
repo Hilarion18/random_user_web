@@ -28,7 +28,16 @@ export async function generateStaticParams() {
   return ""
 }
 
-export default function Page() {
+// export default function Page({params}) {
+//   const { slug } = params
+//   return (
+//     <>
+//       <MealDetail/>
+//     </>
+//   );
+// }
+export default function Page({ params }: { params: { id: string } }) {
+  const { id } = params
   return (
     <>
       <MealDetail/>
