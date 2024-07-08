@@ -1,1 +1,1 @@
-{"version":1,"functions":{"/terms":{},"/blog":{},"/[slug]":{},"/contact":{},"/meal/[id]":{},"/meal":{},"/about":{},"/pricing":{},"/faqs":{},"/user/[id]":{},"/services":{},"/privacy":{},"/user":{},"/":{}}}
+{"version":1,"functions":{"/privacy":{},"/blog":{},"/terms":{},"/contact":{},"/[slug]":{},"/about":{},"/meal/[id]":{},"/pricing":{},"/faqs":{},"/meal":{},"/services":{},"/user":{},"/":{},"/user/[id]":{}}}
