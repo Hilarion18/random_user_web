@@ -4,6 +4,7 @@ const SITE = require('./src/config.js').SITE;
 module.exports = {
   reactStrictMode: true,
   distDir: 'build',
+  output: 'export',
 
   trailingSlash: SITE.trailingSlash,
   basePath: SITE.basePathname !== '/' ? SITE.basePathname : '',
